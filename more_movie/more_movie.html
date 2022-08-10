@@ -1,0 +1,899 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+  <link rel="stylesheet" href="../css/more_movie.css">
+  <title>MEGABOX_more_movie</title>
+</head>
+<body>
+  <input type="checkbox" id="menu_btn">
+
+  <header class="header">
+    <div class="header_content">
+      <div class="back_home"><a href="../main/main_page.html"><i class="xi-arrow-left"></i></a></div>
+
+      <div class="header_title"><h3>영화</h3></div>
+      <div class="menu_btn">
+        <label for="menu_btn" class="menu_btn_open"><i class="xi-bars"></i></label>
+      </div>
+    </div>
+  </header>
+
+  <div class="header_background"></div>
+  <div class="header_gradation_background"></div>
+
+  <div class="bottom_button_box">
+    <ul class="bottom_button">
+      <li><a href="../main/main_page.html"><div><img src="../images/btn/home_white_24dp.png" alt=""></div><p>홈</p></a></li>
+      <li><a href="../store/store.html"><div><img src="../images/btn/mall_white_24dp.png" alt=""></div><p>스토어</p></a></li>
+      <li><a href="#!"><div><img src="../images/btn/number_white_24dp.png" alt=""></div><p>예매</p></a></li>
+      <li><a href="#!"><div><img src="../images/btn/online_white_24dp.png" alt=""></div><p>모바일 예매</p></a></li>
+      <li><a href="#!"><div><img src="../images/btn/person_white_24dp.png" alt=""></div><p>MY</p></a></li>
+    </ul>
+  </div>
+  <div class="menu_sheet">
+    <section class="ham_menu">
+      
+      <div class="menu_header">
+        <div>로그인 해주세요 :)</div>
+        <div class="icon_box">
+          <a href="#!"><i class="xi-cog"></i></a>
+          <label for="menu_btn" class="menu_btn_close"><i class="xi-close"></i></label>
+        </div>
+      </div>
+
+      <div class="login">
+        <ul>
+          <li>로그인</li>
+          <li>회원가입</li>
+        </ul>
+
+        <div class="not_login">비회원 예매내역</div>
+      </div>
+
+      <div class="menu_container">
+        <input type="checkbox" id="total_menu">
+        <div class="menu_btn_box">
+          <h3>Quick Menu</h3>
+          <label for="total_menu" class="total_menu_lab">
+            <div class="total_menu_btn">전체보기메뉴 <i class="xi-angle-right"></i></div>
+          </label>
+        </div>
+        <ul class="menu_nav main_menu_nav">
+          <li><a href="#!"><div class="nav_img_box"><img src="../images/btn/movie_reservation.jpg" alt=""></div><div><p>영화별 예매</p></div></a></li>
+          <li><a href="#!"><div class="nav_img_box"><img src="../images/btn/theater_reservation.jpg" alt=""></div><div><p>극장별 예매</p></div></a></li>
+          <li><a href="#!"><div class="nav_img_box"><img src="../images/btn/special_theater.jpg" alt=""></div><div><p>특별관 예매</p></div></a></li>
+        </ul>
+        <ul class="menu_nav sub_menu_nav">
+          <li><a href="#!"><div class="nav_img_box"><img src="../images/btn/festival.png" alt=""></div><div><p>이벤트</p></div></a></li>
+          <li><a href="../store/store.html"><div class="nav_img_box"><img src="../images/btn/shopping_bag.png" alt=""></div><div><p>스토어</p></div></a></li>
+          <li><a href="#!"><div class="nav_img_box"><img src="../images/btn/workspace_premium.png" alt=""></div><div><p>혜택</p></div></a></li>
+        </ul>
+
+        <div class="total_menu_sheet">
+          <ul class="menu_sheet_left">
+            <li><a href="#!">전체영화</a></li>
+            <li><a href="../store/store.html">스토어</a></li>
+            <li><a href="#!">무비피드</a></li>
+            <li><a href="#!">극장안내</a></li>
+            <li><a href="#!">멤버십안내</a></li>
+          </ul>
+          <ul class="menu_sheet_right">
+            <li><a href="#!">나의메가박스</a></li>
+            <li><a href="#!">모바일오더</a></li>
+            <li><a href="#!">무비포스트</a></li>
+            <li><a href="#!">스페셜멤버십</a></li>
+            <li><a href="#!">VIP 라운지</a></li>
+          </ul>
+        </div>
+
+        <ul class="icon_box">
+          <li><a href="#!"><img src="../images/ico-facebook.png" alt=""></a></li>
+          <li><a href="#!"><img src="../images/ico-kakao.png" alt=""></a></li>
+          <li><a href="#!"><img src="../images/ico-naver.png" alt=""></a></li>
+          <li><a href="#!"><img src="../images/ico-payco.png" alt=""></a></li>
+        </ul>
+
+        <ul class="custom_service">
+          <li><a href="#!">고객센터</a></li>
+          <li><a href="#!">문의</a></li>
+          <li><a href="#!">단체/대관</a></li>
+          <li><a href="#!"></a></li>
+        </ul>
+      </div>
+    </section>
+  </div>
+
+  <section class="tab_menu">
+    <input type="radio" name="tab_menu" id="tab_menu1" checked>
+    <input type="radio" name="tab_menu" id="tab_menu2">
+    <input type="radio" name="tab_menu" id="tab_menu3">
+    <input type="radio" name="tab_menu" id="tab_menu4">
+
+    <ul class="tab_menu_lab_box">
+      <li><label for="tab_menu1">박스오피스</label></li>
+      <li><label for="tab_menu2">상영작</label></li>
+      <li><label for="tab_menu3">상영예정작</label></li>
+      <li><label for="tab_menu4">특별상영</label></li>
+    </ul>
+
+    <div class="search_box">
+      <div class="search">  
+        <input type="text" placeholder="영화명으로 검색해주세요.">
+        <i class="xi-search"></i>
+      </div>
+      <form>
+        <select>
+          <option>예매율순</option>
+          <option>평점순</option>
+          <option>개봉일순</option>
+        </select>
+      </form>
+    </div>
+
+    <div class="movie_list">
+      <input type="checkbox" id="more_movie_list">
+      
+      <div class="box_office">
+        <ul>
+          <li>
+            <div class="list_img_box"><img src="../images/poster01.jpg" alt="poster01"></div>
+            <div class="list_txt_box">
+              <div class="rate"><p>No.1</p><div><img src="../images/grade-12.png" alt=""></div></div>
+              <div class="title"><p>닥터스트레인지:대혼돈의 멀티버스</p></div>
+              <div>
+                <p>예매율 60.5%</p>
+                <p>평점 8.5</p>
+              </div>
+              <div class="list_btn_box">
+                <a href="detail_page.html">상세보기</a>
+                <a href="#!">예매</a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="list_img_box"><img src="../images/poster04.jpg" alt="poster01"></div>
+            <div class="list_txt_box">
+              <div class="rate"><p>No.2</p><div><img src="../images/grade-all.png" alt=""></div></div>
+              <div class="title"><p>배드 가이즈</p></div>
+              <div>
+                <p>예매율 4.6%</p>
+                <p>평점 8.4</p>
+              </div>
+              <div class="list_btn_box">
+                <a href="detail_page.html">상세보기</a>
+                <a href="#!">예매</a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="list_img_box"><img src="../images/poster02.jpg" alt="poster01"></div>
+            <div class="list_txt_box">
+              <div class="rate"><p>No.3</p><div><img src="../images/grade-15.png" alt=""></div></div>
+              <div class="title"><p>니 부모 얼굴이 보고 싶다</p></div>
+              <div>
+                <p>예매율 3%</p>
+                <p>평점 6.8</p>
+              </div>
+              <div class="list_btn_box">
+                <a href="detail_page.html">상세보기</a>
+                <a href="#!">예매</a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="list_img_box"><img src="../images/poster05.jpg" alt="poster01"></div>
+            <div class="list_txt_box">
+              <div class="rate"><p>No.4</p><div><img src="../images/grade-all.png" alt=""></div></div>
+              <div class="title"><p>극장판 엉덩이 탐정: 수플레 섬의 비밀</p></div>
+              <div>
+                <p>예매율 1.8%</p>
+                <p>평점 8.8</p>
+              </div>
+              <div class="list_btn_box">
+                <a href="detail_page.html">상세보기</a>
+                <a href="#!">예매</a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="list_img_box"><img src="../images/poster06.jpg" alt="poster01"></div>
+            <div class="list_txt_box">
+              <div class="rate"><p>No.5</p><div><img src="../images/grade-12.png" alt=""></div></div>
+              <div class="title"><p>복지식당</p></div>
+              <div>
+                <p>예매율 1.5%</p>
+                <p>평점 8.8</p>
+              </div>
+              <div class="list_btn_box">
+                <a href="detail_page.html">상세보기</a>
+                <a href="#!">예매</a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="list_img_box"><img src="../images/poster03.jpg" alt="poster01"></div>
+            <div class="list_txt_box">
+              <div class="rate"><p>No.6</p><div><img src="../images/grade-12.png" alt=""></div></div>
+              <div class="title"><p>신비한 동물들과 덤블도어의 비밀</p></div>
+              <div>
+                <p>예매율 1%</p>
+                <p>평점 9</p>
+              </div>
+              <div class="list_btn_box">
+                <a href="detail_page.html">상세보기</a>
+                <a href="#!">예매</a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="list_img_box"><img src="../images/soon_poster01.jpg" alt="poster01"></div>
+            <div class="list_txt_box">
+              <div class="rate"><p>No.7</p><div><img src="../images/grade-15.png" alt=""></div></div>
+              <div class="title"><p>부가나이트</p></div>
+              <div>
+                <p>예매율 0.6%</p>
+                <p>평점 5.5</p>
+              </div>
+              <div class="list_btn_box">
+                <a href="detail_page.html">상세보기</a>
+                <a href="#!">예매</a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="list_img_box"><img src="../images/poster07.jpg" alt="poster01"></div>
+            <div class="list_txt_box">
+              <div class="rate"><p>No.8</p><div><img src="../images/grade-15.png" alt=""></div></div>
+              <div class="title"><p>서울괴담</p></div>
+              <div>
+                <p>예매율 0.4%</p>
+                <p>평점 5</p>
+              </div>
+              <div class="list_btn_box">
+                <a href="detail_page.html">상세보기</a>
+                <a href="#!">예매</a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="list_img_box"><img src="../images/poster08.jpg" alt="poster01"></div>
+            <div class="list_txt_box">
+              <div class="rate"><p>No.9</p><div><img src="../images/grade-15.png" alt=""></div></div>
+              <div class="title"><p>중경삼림</p></div>
+              <div>
+                <p>예매율 0.4%</p>
+                <p>평점 5</p>
+              </div>
+              <div class="list_btn_box">
+                <a href="detail_page.html">상세보기</a>
+                <a href="#!">예매</a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="list_img_box"><img src="../images/poster09.jpg" alt="poster01"></div>
+            <div class="list_txt_box">
+              <div class="rate"><p>No.10</p><div><img src="../images/grade-15.png" alt=""></div></div>
+              <div class="title"><p>봄날</p></div>
+              <div>
+                <p>예매율 0.4%</p>
+                <p>평점 7.1</p>
+              </div>
+              <div class="list_btn_box">
+                <a href="detail_page.html">상세보기</a>
+                <a href="#!">예매</a>
+              </div>
+            </div>
+          </li>
+
+          <div class="more_list">
+            <li>
+              <div class="list_img_box"><img src="../images/poster10.jpg" alt="poster01"></div>
+              <div class="list_txt_box">
+                <div class="rate"><p>No.11</p><div><img src="../images/grade-12.png" alt=""></div></div>
+                <div class="title"><p>로스트 시티</p></div>
+                <div>
+                  <p>예매율 0.4%</p>
+                  <p>평점 6.1</p>
+                </div>
+                <div class="list_btn_box">
+                  <a href="detail_page.html">상세보기</a>
+                  <a href="#!">예매</a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="list_img_box"><img src="../images/poster11.jpg" alt="poster01"></div>
+              <div class="list_txt_box">
+                <div class="rate"><p>No.12</p><div><img src="../images/grade-15.png" alt=""></div></div>
+                <div class="title"><p>우연과 상상</p></div>
+                <div>
+                  <p>예매율 0.4%</p>
+                  <p>평점 7.1</p>
+                </div>
+                <div class="list_btn_box">
+                  <a href="detail_page.html">상세보기</a>
+                  <a href="#!">예매</a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="list_img_box"><img src="../images/poster12.jpg" alt="poster01"></div>
+              <div class="list_txt_box">
+                <div class="rate"><p>No.13</p><div><img src="../images/grade-12.png" alt=""></div></div>
+                <div class="title"><p>루이스 웨인: 사랑을 그린 고양이 화가</p></div>
+                <div>
+                  <p>예매율 0.3%</p>
+                  <p>평점 7.1</p>
+                </div>
+                <div class="list_btn_box">
+                  <a href="detail_page.html">상세보기</a>
+                  <a href="#!">예매</a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="list_img_box"><img src="../images/poster13.jpg" alt="poster01"></div>
+              <div class="list_txt_box">
+                <div class="rate"><p>No.14</p><div><img src="../images/grade-15.png" alt=""></div></div>
+                <div class="title"><p>열대왕사</p></div>
+                <div>
+                  <p>예매율 0.3%</p>
+                  <p>평점 7.1</p>
+                </div>
+                <div class="list_btn_box">
+                  <a href="detail_page.html">상세보기</a>
+                  <a href="#!">예매</a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="list_img_box"><img src="../images/poster14.jpg" alt="poster01"></div>
+              <div class="list_txt_box">
+                <div class="rate"><p>No.15</p><div><img src="../images/grade-15.png" alt=""></div></div>
+                <div class="title"><p>극장판 귀멸의 칼날:무곽편</p></div>
+                <div>
+                  <p>예매율 0.2%</p>
+                  <p>평점 9.1</p>
+                </div>
+                <div class="list_btn_box">
+                  <a href="detail_page.html">상세보기</a>
+                  <a href="#!">예매</a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="list_img_box"><img src="../images/poster15.jpg" alt="poster01"></div>
+              <div class="list_txt_box">
+                <div class="rate"><p>No.16</p><div><img src="../images/grade-15.png" alt=""></div></div>
+                <div class="title"><p>앵커</p></div>
+                <div>
+                  <p>예매율 0.1%</p>
+                  <p>평점 7.1</p>
+                </div>
+                <div class="list_btn_box">
+                  <a href="detail_page.html">상세보기</a>
+                  <a href="#!">예매</a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="list_img_box"><img src="../images/poster16.jpg" alt="poster01"></div>
+              <div class="list_txt_box">
+                <div class="rate"><p>No.17</p><div><img src="../images/grade-15.png" alt=""></div></div>
+                <div class="title"><p>극장판 주술회전 0</p></div>
+                <div>
+                  <p>예매율 0.1%</p>
+                  <p>평점 7.8</p>
+                </div>
+                <div class="list_btn_box">
+                  <a href="detail_page.html">상세보기</a>
+                  <a href="#!">예매</a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="list_img_box"><img src="../images/poster17.jpg" alt="poster01"></div>
+              <div class="list_txt_box">
+                <div class="rate"><p>No.18</p><div><img src="../images/grade-12.png" alt=""></div></div>
+                <div class="title"><p>공기살인</p></div>
+                <div>
+                  <p>예매율 0.1%</p>
+                  <p>평점 5.1</p>
+                </div>
+                <div class="list_btn_box">
+                  <a href="detail_page.html">상세보기</a>
+                  <a href="#!">예매</a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="list_img_box"><img src="../images/poster18.jpg" alt="poster01"></div>
+              <div class="list_txt_box">
+                <div class="rate"><p>No.19</p><div><img src="../images/grade-all.png" alt=""></div></div>
+                <div class="title"><p>수퍼 소닉2</p></div>
+                <div>
+                  <p>예매율 0.1%</p>
+                  <p>평점 7.1</p>
+                </div>
+                <div class="list_btn_box">
+                  <a href="detail_page.html">상세보기</a>
+                  <a href="#!">예매</a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="list_img_box"><img src="../images/poster19.jpg" alt="poster01"></div>
+              <div class="list_txt_box">
+                <div class="rate"><p>No.20</p><div><img src="../images/grade-all.png" alt=""></div></div>
+                <div class="title"><p>[오페라] 신데렐라 @The Met</p></div>
+                <div>
+                  <p>예매율 0.1%</p>
+                  <p>평점 --</p>
+                </div>
+                <div class="list_btn_box">
+                  <a href="detail_page.html">상세보기</a>
+                  <a href="#!">예매</a>
+                </div>
+              </div>
+            </li>
+            
+          </div>
+
+          <div class="more_list_btn open">
+            <label for="more_movie_list" class="more_movie_list_lab">더보기</label>
+            <i class="xi-angle-down"></i>
+          </div>
+          <div class="more_list_btn close">
+            <label for="more_movie_list" class="more_movie_list_lab">닫기</label>
+            <i class="xi-angle-up"></i>
+          </div>
+
+        </ul>
+      </div>
+
+      <div class="ing">
+        <ul>
+          <li>
+            <div class="list_img_box"><img src="../images/ing_poster/01.jpg" alt="poster01"></div>
+            <div class="list_txt_box">
+              <div class="rate"><p>No.1</p><div><img src="../images/grade-15.png" alt=""></div></div>
+              <div class="title"><p>니 부모 얼굴이 보고 싶다</p></div>
+              <div>
+                <p>예매율 1.2%</p>
+                <p>평점 8.5</p>
+              </div>
+              <div class="list_btn_box">
+                <a href="detail_page.html">상세보기</a>
+                <a href="#!">예매</a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="list_img_box"><img src="../images/ing_poster/2.jpg" alt="poster01"></div>
+            <div class="list_txt_box">
+              <div class="rate"><p>No.2</p><div><img src="../images/grade-12.png" alt=""></div></div>
+              <div class="title"><p>신비한 동물들과 덤블도어의 비밀</p></div>
+              <div>
+                <p>예매율 0.9%</p>
+                <p>평점 8.4</p>
+              </div>
+              <div class="list_btn_box">
+                <a href="detail_page.html">상세보기</a>
+                <a href="#!">예매</a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="list_img_box"><img src="../images/ing_poster/3.jpg" alt="poster01"></div>
+            <div class="list_txt_box">
+              <div class="rate"><p>No.3</p><div><img src="../images/grade-all.png" alt=""></div></div>
+              <div class="title"><p>세븐틴 파워 오브 러브 - 더 무비</p></div>
+              <div>
+                <p>예매율 0.5%</p>
+                <p>평점 6.8</p>
+              </div>
+              <div class="list_btn_box">
+                <a href="detail_page.html">상세보기</a>
+                <a href="#!">예매</a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="list_img_box"><img src="../images/ing_poster/4.jpg" alt="poster01"></div>
+            <div class="list_txt_box">
+              <div class="rate"><p>No.4</p><div><img src="../images/grade-all.png" alt=""></div></div>
+              <div class="title"><p>몬스터 아카데미</p></div>
+              <div>
+                <p>예매율 0.4%</p>
+                <p>평점 8.8</p>
+              </div>
+              <div class="list_btn_box">
+                <a href="detail_page.html">상세보기</a>
+                <a href="#!">예매</a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="list_img_box"><img src="../images/ing_poster/5.jpg" alt="poster01"></div>
+            <div class="list_txt_box">
+              <div class="rate"><p>No.5</p><div><img src="../images/grade-15.png" alt=""></div></div>
+              <div class="title"><p>극장판 주술회전 0</p></div>
+              <div>
+                <p>예매율 0.2%</p>
+                <p>평점 8.8</p>
+              </div>
+              <div class="list_btn_box">
+                <a href="detail_page.html">상세보기</a>
+                <a href="#!">예매</a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="list_img_box"><img src="../images/ing_poster/6.jpg" alt="poster01"></div>
+            <div class="list_txt_box">
+              <div class="rate"><p>No.6</p><div><img src="../images/grade-15.png" alt=""></div></div>
+              <div class="title"><p>더 컨트랙터</p></div>
+              <div>
+                <p>예매율 0.2%</p>
+                <p>평점 9</p>
+              </div>
+              <div class="list_btn_box">
+                <a href="detail_page.html">상세보기</a>
+                <a href="#!">예매</a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="list_img_box"><img src="../images/ing_poster/7.jpg" alt="poster01"></div>
+            <div class="list_txt_box">
+              <div class="rate"><p>No.7</p><div><img src="../images/grade-15.png" alt=""></div></div>
+              <div class="title"><p>봄날</p></div>
+              <div>
+                <p>예매율 0.2%</p>
+                <p>평점 5.5</p>
+              </div>
+              <div class="list_btn_box">
+                <a href="detail_page.html">상세보기</a>
+                <a href="#!">예매</a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="list_img_box"><img src="../images/ing_poster/8.jpg" alt="poster01"></div>
+            <div class="list_txt_box">
+              <div class="rate"><p>No.8</p><div><img src="../images/grade-12.png" alt=""></div></div>
+              <div class="title"><p>뮤지컬 킹키부츠 라이브</p></div>
+              <div>
+                <p>예매율 0.1%</p>
+                <p>평점 5</p>
+              </div>
+              <div class="list_btn_box">
+                <a href="detail_page.html">상세보기</a>
+                <a href="#!">예매</a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="list_img_box"><img src="../images/ing_poster/9.jpg" alt="poster01"></div>
+            <div class="list_txt_box">
+              <div class="rate"><p>No.9</p><div><img src="../images/grade-15.png" alt=""></div></div>
+              <div class="title"><p>서울괴담</p></div>
+              <div>
+                <p>예매율 0.4%</p>
+                <p>평점 5</p>
+              </div>
+              <div class="list_btn_box">
+                <a href="detail_page.html">상세보기</a>
+                <a href="#!">예매</a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="list_img_box"><img src="../images/ing_poster/10.jpg" alt="poster01"></div>
+            <div class="list_txt_box">
+              <div class="rate"><p>No.10</p><div><img src="../images/grade-12.png" alt=""></div></div>
+              <div class="title"><p>로스트 시티</p></div>
+              <div>
+                <p>예매율 0.1%</p>
+                <p>평점 7.1</p>
+              </div>
+              <div class="list_btn_box">
+                <a href="detail_page.html">상세보기</a>
+                <a href="#!">예매</a>
+              </div>
+            </div>
+          </li>
+
+          <div class="more_list">
+            <li>
+              <div class="list_img_box"><img src="../images/ing_poster/11.jpg" alt="poster01"></div>
+              <div class="list_txt_box">
+                <div class="rate"><p>No.11</p><div><img src="../images/grade-15.png" alt=""></div></div>
+                <div class="title"><p>극장판 귀멸의 칼날-무한열차편</p></div>
+                <div>
+                  <p>예매율 0.1%</p>
+                  <p>평점 9.1</p>
+                </div>
+                <div class="list_btn_box">
+                  <a href="detail_page.html">상세보기</a>
+                  <a href="#!">예매</a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="list_img_box"><img src="../images/ing_poster/12.jpg" alt="poster01"></div>
+              <div class="list_txt_box">
+                <div class="rate"><p>No.12</p><div><img src="../images/grade-15.png" alt=""></div></div>
+                <div class="title"><p>내가 처음으로 사랑한 소녀</p></div>
+                <div>
+                  <p>예매율 0.1%</p>
+                  <p>평점 7.1</p>
+                </div>
+                <div class="list_btn_box">
+                  <a href="detail_page.html">상세보기</a>
+                  <a href="#!">예매</a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="list_img_box"><img src="../images/ing_poster/13.jpg" alt="poster01"></div>
+              <div class="list_txt_box">
+                <div class="rate"><p>No.13</p><div><img src="../images/grade-15.png" alt=""></div></div>
+                <div class="title"><p>쿠폰의 여왕</p></div>
+                <div>
+                  <p>예매율 0.1%</p>
+                  <p>평점 7.1</p>
+                </div>
+                <div class="list_btn_box">
+                  <a href="detail_page.html">상세보기</a>
+                  <a href="#!">예매</a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="list_img_box"><img src="../images/ing_poster/14.jpg" alt="poster01"></div>
+              <div class="list_txt_box">
+                <div class="rate"><p>No.14</p><div><img src="../images/grade-all.png" alt=""></div></div>
+                <div class="title"><p>동경 이야기</p></div>
+                <div>
+                  <p>예매율 0.1%</p>
+                  <p>평점 7.1</p>
+                </div>
+                <div class="list_btn_box">
+                  <a href="detail_page.html">상세보기</a>
+                  <a href="#!">예매</a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="list_img_box"><img src="../images/ing_poster/15.jpg" alt="poster01"></div>
+              <div class="list_txt_box">
+                <div class="rate"><p>No.15</p><div><img src="../images/grade-12.png" alt=""></div></div>
+                <div class="title"><p>공기살인</p></div>
+                <div>
+                  <p>예매율 0.1%</p>
+                  <p>평점 9.1</p>
+                </div>
+                <div class="list_btn_box">
+                  <a href="detail_page.html">상세보기</a>
+                  <a href="#!">예매</a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="list_img_box"><img src="../images/ing_poster/16.jpg" alt="poster01"></div>
+              <div class="list_txt_box">
+                <div class="rate"><p>No.16</p><div><img src="../images/grade-15.png" alt=""></div></div>
+                <div class="title"><p>앵커</p></div>
+                <div>
+                  <p>예매율 0.1%</p>
+                  <p>평점 7.1</p>
+                </div>
+                <div class="list_btn_box">
+                  <a href="detail_page.html">상세보기</a>
+                  <a href="#!">예매</a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="list_img_box"><img src="../images/ing_poster/17.jpg" alt="poster01"></div>
+              <div class="list_txt_box">
+                <div class="rate"><p>No.17</p><div><img src="../images/grade-all.png" alt=""></div></div>
+                <div class="title"><p>안녕하세요</p></div>
+                <div>
+                  <p>예매율 0.1%</p>
+                  <p>평점 7.8</p>
+                </div>
+                <div class="list_btn_box">
+                  <a href="detail_page.html">상세보기</a>
+                  <a href="#!">예매</a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="list_img_box"><img src="../images/ing_poster/18.jpg" alt="poster01"></div>
+              <div class="list_txt_box">
+                <div class="rate"><p>No.18</p><div><img src="../images/grade-none.png" alt=""></div></div>
+                <div class="title"><p>오차즈케의 맛</p></div>
+                <div>
+                  <p>예매율 0.1%</p>
+                  <p>평점 5.1</p>
+                </div>
+                <div class="list_btn_box">
+                  <a href="detail_page.html">상세보기</a>
+                  <a href="#!">예매</a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="list_img_box"><img src="../images/ing_poster/19.jpg" alt="poster01"></div>
+              <div class="list_txt_box">
+                <div class="rate"><p>No.19</p><div><img src="../images/grade-all.png" alt=""></div></div>
+                <div class="title"><p>만춘</p></div>
+                <div>
+                  <p>예매율 0.1%</p>
+                  <p>평점 7.1</p>
+                </div>
+                <div class="list_btn_box">
+                  <a href="detail_page.html">상세보기</a>
+                  <a href="#!">예매</a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="list_img_box"><img src="../images/ing_poster/20.jpg" alt="poster01"></div>
+              <div class="list_txt_box">
+                <div class="rate"><p>No.20</p><div><img src="../images/grade-12.png" alt=""></div></div>
+                <div class="title"><p>소설가의 영화</p></div>
+                <div>
+                  <p>예매율 0.1%</p>
+                  <p>평점 --</p>
+                </div>
+                <div class="list_btn_box">
+                  <a href="detail_page.html">상세보기</a>
+                  <a href="#!">예매</a>
+                </div>
+              </div>
+            </li>
+          </div>
+          <div class="more_list_btn open">
+            <label for="more_movie_list" class="more_movie_list_lab">더보기</label>
+            <i class="xi-angle-down"></i>
+          </div>
+          <div class="more_list_btn close">
+            <label for="more_movie_list" class="more_movie_list_lab">닫기</label>
+            <i class="xi-angle-up"></i>
+          </div>
+        </ul>
+      </div>
+
+      <div class="soon">
+        <ul>
+          <li>
+            <div class="list_img_box"><img src="../images/poster01.jpg" alt="poster01"></div>
+            <div class="list_txt_box">
+              <div class="rate"><p>No.1</p><div><img src="../images/grade-12.png" alt=""></div></div>
+              <div class="title"><p>닥터스트레인지:대혼돈의 멀티버스</p></div>
+              <div>
+                <p>예매율 60.5%</p>
+                <p>평점 8.5</p>
+              </div>
+              <div class="list_btn_box">
+                <a href="detail_page.html">상세보기</a>
+                <a href="#!">예매</a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="list_img_box"><img src="../images/poster04.jpg" alt="poster01"></div>
+            <div class="list_txt_box">
+              <div class="rate"><p>No.2</p><div><img src="../images/grade-all.png" alt=""></div></div>
+              <div class="title"><p>배드 가이즈</p></div>
+              <div>
+                <p>예매율 4.6%</p>
+                <p>평점 8.4</p>
+              </div>
+              <div class="list_btn_box">
+                <a href="detail_page.html">상세보기</a>
+                <a href="#!">예매</a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="list_img_box"><img src="../images/poster05.jpg" alt="poster01"></div>
+            <div class="list_txt_box">
+              <div class="rate"><p>No.3</p><div><img src="../images/grade-all.png" alt=""></div></div>
+              <div class="title"><p>극장판 엉덩이 탐정: 수플레 섬의 비밀</p></div>
+              <div>
+                <p>예매율 1.8%</p>
+                <p>평점 8.8</p>
+              </div>
+              <div class="list_btn_box">
+                <a href="detail_page.html">상세보기</a>
+                <a href="#!">예매</a>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="special">
+        <ul>
+          <li>
+            <div class="list_img_box"><img src="../images/poster19.jpg" alt="poster01"></div>
+            <div class="list_txt_box">
+              <div class="rate"><p>No.1</p><div><img src="../images/grade-all.png" alt=""></div></div>
+              <div class="title"><p>[오페라] 신데렐라 @The Met</p></div>
+              <div>
+                <p>예매율 0.7%</p>
+                <p>평점 --</p>
+              </div>
+              <div class="list_btn_box">
+                <a href="detail_page.html">상세보기</a>
+                <a href="#!">예매</a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="list_img_box"><img src="../images/ing_poster/3.jpg" alt="poster01"></div>
+            <div class="list_txt_box">
+              <div class="rate"><p>No.2</p><div><img src="../images/grade-all.png" alt=""></div></div>
+              <div class="title"><p>세븐틴 파워 오브 러브 - 더 무비</p></div>
+              <div>
+                <p>예매율 0.5%</p>
+                <p>평점 6.8</p>
+              </div>
+              <div class="list_btn_box">
+                <a href="detail_page.html">상세보기</a>
+                <a href="#!">예매</a>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+
+
+
+
+
+    </div>
+
+  </section>
+
+
+
+
+  <footer class="footer">
+    <ul>
+      <li><a href="#!">개인정보</a></li>
+      <li><a href="#!">위치기반서비스 이용약관</a></li>
+      <li><a href="#!">개인정보처리방침</a></li>
+      <li><a href="#!">고객센터</a></li>
+    </ul>
+
+    <div class="address">
+      <p>
+        서울특별시 마포구 월드컵로 240, 지상2층(성산동,월드컵주경기장)<br>
+        대표자 홍정인·개인정보보호책임자 공성진<br>
+        사업자등록번호 211-86-59478·  통신판매업신고번호 제2020-서울마포-4545호
+      </p>
+      <p>
+        copyright MegaboxJoonAng.lnc.
+      </p>
+    </div>
+  </footer>
+
+  
+  <a href="#">
+    <div class="to_top">
+      <div><i class="xi-arrow-up"></i></div>
+    </div>
+  </a>
+</body>
+</html>

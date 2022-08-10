@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+  <link rel="stylesheet" href="../css/detail_page.css">
+  <title>MEGABOX_detail</title>
+</head>
+<body>
+  <input type="checkbox" id="menu_btn">
+
+  <header class="header">
+    <div class="header_content">
+      <div class="back_home"><a href="../main/main_page.html"><i class="xi-arrow-left"></i></a></div>
+
+      <div class="header_title"><h3>영화</h3></div>
+      <div class="menu_btn">
+        <label for="menu_btn" class="menu_btn_open"><i class="xi-bars"></i></label>
+      </div>
+    </div>
+  </header>
+
+  <div class="bottom_button_box">
+    <ul class="bottom_button">
+      <li><a href="../main/main_page.html"><div><img src="../images/btn/home.png" alt=""></div><p>홈</p></a></li>
+      <li><a href="#!"><p>예매하기</p></a></li>
+      
+    </ul>
+  </div>
+
+  <div class="menu_sheet">
+    <section class="ham_menu">
+      <div class="menu_header">
+        <div>로그인 해주세요 :)</div>
+        <div class="icon_box">
+          <a href="#!"><i class="xi-cog"></i></a>
+          <label for="menu_btn" class="menu_btn_close"><i class="xi-close"></i></label>
+        </div>
+      </div>
+
+      <div class="login">
+        <ul>
+          <li>로그인</li>
+          <li>회원가입</li>
+        </ul>
+
+        <div class="not_login">비회원 예매내역</div>
+      </div>
+
+      <div class="menu_container">
+        <input type="checkbox" id="total_menu">
+        <div class="menu_btn_box">
+          <h3>Quick Menu</h3>
+          <label for="total_menu" class="total_menu_lab">
+            <div class="total_menu_btn">전체보기메뉴 <i class="xi-angle-right"></i></div>
+          </label>
+        </div>
+        <ul class="menu_nav main_menu_nav">
+          <li><a href="#!"><div class="nav_img_box"><img src="../images/btn/movie_reservation.jpg" alt=""></div><div><p>영화별 예매</p></div></a></li>
+          <li><a href="#!"><div class="nav_img_box"><img src="../images/btn/theater_reservation.jpg" alt=""></div><div><p>극장별 예매</p></div></a></li>
+          <li><a href="#!"><div class="nav_img_box"><img src="../images/btn/special_theater.jpg" alt=""></div><div><p>특별관 예매</p></div></a></li>
+        </ul>
+        <ul class="menu_nav sub_menu_nav">
+          <li><a href="#!"><div class="nav_img_box"><img src="../images/btn/festival.png" alt=""></div><div><p>이벤트</p></div></a></li>
+          <li><a href="../store/store.html"><div class="nav_img_box"><img src="../images/btn/shopping_bag.png" alt=""></div><div><p>스토어</p></div></a></li>
+          <li><a href="#!"><div class="nav_img_box"><img src="../images/btn/workspace_premium.png" alt=""></div><div><p>혜택</p></div></a></li>
+        </ul>
+
+        <div class="total_menu_sheet">
+          <ul class="menu_sheet_left">
+            <li><a href="#!">전체영화</a></li>
+            <li><a href="../store/store.html">스토어</a></li>
+            <li><a href="#!">무비피드</a></li>
+            <li><a href="#!">극장안내</a></li>
+            <li><a href="#!">멤버십안내</a></li>
+          </ul>
+          <ul class="menu_sheet_right">
+            <li><a href="#!">나의메가박스</a></li>
+            <li><a href="#!">모바일오더</a></li>
+            <li><a href="#!">무비포스트</a></li>
+            <li><a href="#!">스페셜멤버십</a></li>
+            <li><a href="#!">VIP 라운지</a></li>
+          </ul>
+        </div>
+
+        <ul class="icon_box">
+          <li><a href="#!"><img src="../images/ico-facebook.png" alt=""></a></li>
+          <li><a href="#!"><img src="../images/ico-kakao.png" alt=""></a></li>
+          <li><a href="#!"><img src="../images/ico-naver.png" alt=""></a></li>
+          <li><a href="#!"><img src="../images/ico-payco.png" alt=""></a></li>
+        </ul>
+
+        <ul class="custom_service">
+          <li><a href="#!">고객센터</a></li>
+          <li><a href="#!">문의</a></li>
+          <li><a href="#!">단체/대관</a></li>
+          <li><a href="#!"></a></li>
+        </ul>
+      </div>
+    </section>
+  </div>
+
+  <div class="poster_background">
+    <img src="../images/poster02.jpg" alt="poster_cut">
+  </div>
+
+
+  <section class="movie_info">
+    <div class="info_title">니 부모 얼굴이 보고싶다</div>
+    <div class="info_grade">15세 이상 관람가</div>
+    <div class="info_rate">예매율 2위(6.6%)</div>
+
+    <input type="checkbox" id="info_more">
+    <div class="info_exp">
+      <p>"누군가 잘못했겠지"</p>
+      <p>"하지만 내 아들은 절대 아니야"</p>
+      <div class="info_exp_more">
+        <p>
+          명문 한음 국제중학교 학생 ‘김건우’가
+          같은 반 친구 4명의 이름이 적힌 편지를 남긴 채,
+          의식불명 상태로 호숫가에서 발견된다.
+
+          병원 이사장의 아들 ‘도윤재’
+          전직 경찰청장의 손자 ‘박규범’
+          한음 국제중학교 교사의 아들 ‘정이든’
+          그리고, 변호사 ‘강호창’(설경구)의 아들 ‘강한결’.
+
+          가해자로 지목된 아이들의 부모들은
+          자신의 권력과 재력을 이용해 사건을 은폐하려고 한다.
+          하지만, 담임 교사 ‘송정욱’(천우희)의 양심 선언으로
+          건우 엄마(문소리) 또한 아들의 죽음에 관한 진실을 알게 된다.
+
+          세상의 이목이 한음 국제중학교로 향하고,
+          자신의 아이들을 지키기 위한 가해자 부모들의 추악한 민낯이 드러나는데…
+
+          자식이 괴물이 되면, 부모는 악마가 된다
+        </p>
+      </div>
+    </div>
+
+    <div class="info_more">
+      <div class="label_box">
+        <label for="info_more">
+          <div>더보기<i class="xi-angle-down"></i></div>
+        
+        </label>
+        <label for="info_more">
+          <div>닫기<i class="xi-angle-up"></i></div>
+        </label>
+      </div>
+    </div>
+
+    
+    <div class="movie_tab_info">
+      <input type="radio" name="tab_info" id="tab_info1" checked>
+      <input type="radio" name="tab_info" id="tab_info2">
+      <input type="radio" name="tab_info" id="tab_info3">
+
+      <ul class="tab_label_box">
+        <label for="tab_info1" class="tab_label1"><li>영화정보</li></label>
+        <label for="tab_info2" class="tab_label2"><li>실관람평</li></label>
+        <label for="tab_info3" class="tab_label3"><li>무비포스트</li></label>
+      </ul>
+
+      <div class="movie_detail_info">
+        <ul>
+          <li><p>개봉</p><p>2022.04.27</p></li>
+          <li><p>타입</p><p>2D</p></li>
+          <li><p>장르</p><p>드라마 / 111 분 </p></li>
+          <li><p>등급</p><p>15세이상관람가</p></li>
+          <li><p>감독</p><p>김지훈</p></li>
+          <li><p>출연</p><p>설경구, 오달수, 천우희, 문소리, 고창석, 강신일, 김홍파, 성유빈</p></li>
+        </ul>
+      </div>
+
+      <div class="movie_real">
+        <div class="total">전체 0건</div>
+        
+        <div>아직 남겨진 관람평이 없어요.</div>
+
+        <div>
+          <input type="text" placeholder="로그인 후 관람평 쓰고 이벤트 참여하세요.">
+          <button>관람평 쓰기</button>
+        </div>
+
+      </div>
+
+      <div class="movie_post">
+        <div class="total">전체 0건</div>
+        
+        <div>아직 남겨진 무비포스트가 없어요.</div>
+
+        <div>
+          <input type="text" placeholder="아직 작성된 무비포스트가 없어요">
+          <button>무비포스트 쓰기</button>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  
+  <div class="pre_sec_bg">
+    <section class="preview_sec">
+      <h3>예고편</h3>
+
+      <input type="radio" name="pre_radio" id="pre_radio1" checked>
+      <input type="radio" name="pre_radio" id="pre_radio2">
+      <input type="radio" name="pre_radio" id="pre_radio3">
+
+      <div class="slide_wrap">
+        <ul class="slide_list">
+          <li>
+            <div class="slide_content">
+              <label for="pre_radio3"><i class="xi-arrow-left"></i></label>
+              <div class="pre_video_box"><video controls muted poster="../images/video_poster4.jpg" src="../video/movie01.mp4" type="video/mp4"></video></div>
+              <label for="pre_radio2"><i class="xi-arrow-right"></i></label>
+            </div>
+            <div class="slide_txt">메인 예고편</div>
+          </li>
+
+          <li>
+            <div class="slide_content">
+              <label for="pre_radio1"><i class="xi-arrow-left"></i></label>
+              <div class="pre_video_box"><video controls muted poster="../images/video_poster5.jpg" src="../video/movie01.mp4" type="video/mp4"></video></div>
+              <label for="pre_radio3"><i class="xi-arrow-right"></i></label>
+            </div>
+            <div class="slide_txt">30초 예고편</div>
+          </li>
+
+          <li>
+            <div class="slide_content">
+              <label for="pre_radio2"><i class="xi-arrow-left"></i></label>
+              <div class="pre_video_box"><video controls muted poster="../images/video_poster6.jpg" src="../video/movie01.mp4" type="video/mp4"></video></div>
+              <label for="pre_radio1"><i class="xi-arrow-right"></i></label>
+            </div>
+            <div class="slide_txt">캐릭터 영상</div>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </div>
+
+  <footer class="footer">
+    <ul>
+      <li><a href="#!">개인정보</a></li>
+      <li><a href="#!">위치기반서비스 이용약관</a></li>
+      <li><a href="#!">개인정보처리방침</a></li>
+      <li><a href="#!">고객센터</a></li>
+    </ul>
+
+    <div class="address">
+      <p>
+        서울특별시 마포구 월드컵로 240, 지상2층(성산동,월드컵주경기장)<br>
+        대표자 홍정인·개인정보보호책임자 공성진<br>
+        사업자등록번호 211-86-59478·  통신판매업신고번호 제2020-서울마포-4545호
+      </p>
+      <p>
+        copyright MegaboxJoonAng.lnc.
+      </p>
+    </div>
+  </footer>
+
+  
+  <a href="#">
+    <div class="to_top">
+      <div><i class="xi-arrow-up"></i></div>
+    </div>
+  </a>
+</body>
+</html>

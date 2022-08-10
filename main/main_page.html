@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+  <link rel="stylesheet" href="../css/main.css">
+  <title>MEGABOX_main</title>
+</head>
+<body>
+  <input type="checkbox" id="menu_btn">
+  <input type="checkbox" id="search_btn">
+
+  <header class="header">
+    <div class="logo_box">
+      <img src="../images/header_logo.jpg" alt="header_logo_loading">
+    </div>
+
+    <div class="menu_btn">
+      <label for="search_btn" class="search_btn_open"><i class="xi-search"></i></label>
+      <label for="search_btn" class="search_btn_close"><i class="xi-close"></i></label>
+      <label for="menu_btn" class="menu_btn_open"><i class="xi-bars"></i></label>
+    </div>
+  </header>
+
+  <div class="search_box">
+    <div class="search_box_flex">
+      <p>검색어를 입력해주세요.</p>
+      <i class="xi-search"></i>
+    </div>
+  </div>
+
+  <div class="header_background"></div>
+  <div class="header_gradation_background"></div>
+
+  <div class="bottom_button_box">
+    <ul class="bottom_button">
+      <li><a href="./main_page.html"><div><img src="../images/btn/home_white_24dp.png" alt=""></div><p>홈</p></a></li>
+      <li><a href="../store/store.html"><div><img src="../images/btn/mall_white_24dp.png" alt=""></div><p>스토어</p></a></li>
+      <li><a href="#!"><div><img src="../images/btn/number_white_24dp.png" alt=""></div><p>예매</p></a></li>
+      <li><a href="#!"><div><img src="../images/btn/online_white_24dp.png" alt=""></div><p>모바일 예매</p></a></li>
+      <li><a href="#!"><div><img src="../images/btn/person_white_24dp.png" alt=""></div><p>MY</p></a></li>
+    </ul>
+  </div>
+  <div class="menu_sheet">
+    <section class="ham_menu">
+      
+      <div class="menu_header">
+        <div>로그인 해주세요 :)</div>
+        <div class="icon_box">
+          <a href="#!"><i class="xi-cog"></i></a>
+          <label for="menu_btn" class="menu_btn_close"><i class="xi-close"></i></label>
+        </div>
+      </div>
+
+      <div class="login">
+        <ul>
+          <li>로그인</li>
+          <li>회원가입</li>
+        </ul>
+
+        <div class="not_login">비회원 예매내역</div>
+      </div>
+
+      <div class="menu_container">
+        <input type="checkbox" id="total_menu">
+        <div class="menu_btn_box">
+          <h3>Quick Menu</h3>
+          <label for="total_menu" class="total_menu_lab">
+            <div class="total_menu_btn">전체보기메뉴 <i class="xi-angle-right"></i></div>
+          </label>
+        </div>
+        <ul class="menu_nav main_menu_nav">
+          <li><a href="#!"><div class="nav_img_box"><img src="../images/btn/movie_reservation.jpg" alt=""></div><div><p>영화별 예매</p></div></a></li>
+          <li><a href="#!"><div class="nav_img_box"><img src="../images/btn/theater_reservation.jpg" alt=""></div><div><p>극장별 예매</p></div></a></li>
+          <li><a href="#!"><div class="nav_img_box"><img src="../images/btn/special_theater.jpg" alt=""></div><div><p>특별관 예매</p></div></a></li>
+        </ul>
+        <ul class="menu_nav sub_menu_nav">
+          <li><a href="#!"><div class="nav_img_box"><img src="../images/btn/festival.png" alt=""></div><div><p>이벤트</p></div></a></li>
+          <li><a href="../store/store.html"><div class="nav_img_box"><img src="../images/btn/shopping_bag.png" alt=""></div><div><p>스토어</p></div></a></li>
+          <li><a href="#!"><div class="nav_img_box"><img src="../images/btn/workspace_premium.png" alt=""></div><div><p>혜택</p></div></a></li>
+        </ul>
+
+        <div class="total_menu_sheet">
+          <ul class="menu_sheet_left">
+            <li><a href="#!">전체영화</a></li>
+            <li><a href="../store/store.html">스토어</a></li>
+            <li><a href="#!">무비피드</a></li>
+            <li><a href="#!">극장안내</a></li>
+            <li><a href="#!">멤버십안내</a></li>
+          </ul>
+          <ul class="menu_sheet_right">
+            <li><a href="#!">나의메가박스</a></li>
+            <li><a href="#!">모바일오더</a></li>
+            <li><a href="#!">무비포스트</a></li>
+            <li><a href="#!">스페셜멤버십</a></li>
+            <li><a href="#!">VIP 라운지</a></li>
+          </ul>
+        </div>
+
+        <ul class="icon_box">
+          <li><a href="#!"><img src="../images/ico-facebook.png" alt=""></a></li>
+          <li><a href="#!"><img src="../images/ico-kakao.png" alt=""></a></li>
+          <li><a href="#!"><img src="../images/ico-naver.png" alt=""></a></li>
+          <li><a href="#!"><img src="../images/ico-payco.png" alt=""></a></li>
+        </ul>
+
+        <ul class="custom_service">
+          <li><a href="#!">고객센터</a></li>
+          <li><a href="#!">문의</a></li>
+          <li><a href="#!">단체/대관</a></li>
+          <li><a href="#!"></a></li>
+        </ul>
+      </div>
+    </section>
+  </div>
+
+  <div class="content_box">
+    <section class="movie_chart">
+      <input type="radio" name="movie_chart_radio" id="movie_chart_radio1" checked>
+      <input type="radio" name="movie_chart_radio" id="movie_chart_radio2" >
+
+      <div class="label_box">
+        <label for="movie_chart_radio1" class="movie_chart_lab">#상영중</label>
+        <label for="movie_chart_radio2" class="movie_chart_lab">#상영예정</label>
+      </div>
+
+      <div class="chart_sheet chart_sheet1">
+        <div class="movie_box movie_box01">
+          <a href="../detail/detail_page.html">
+            <div class="rank">No.01</div>
+            <div class="poster">
+              <img src="../images/poster01.jpg" alt="movie poster">
+            </div>
+            <div class="rank_text">
+              <div class="title">
+                <p>닥터 스트레인지: 대혼돈의 멀티버스</p>
+                <div><img src="../images/grade-12.png" alt="grade-12"></div>
+              </div>
+              <div class="rate">예매율 60.8%</div>
+              <div class="grade">평점 8.0</div>
+              <div class="ticketing"><a href="#!"></a>예매</div>
+            </div>
+          </a>
+        </div>
+
+        <div class="movie_box movie_box02">
+          <a href="../detail/detail_page_1.html">
+            <div class="rank">No.02</div>
+            <div class="poster">
+              <img src="../images/poster02.jpg" alt="movie poster">
+            </div>
+            <div class="rank_text">
+              <div class="title">
+                <p>니 부모 얼굴이 보고 싶다</p>
+                <div><img src="../images/grade-15.png" alt="grade-15"></div>
+              </div>
+              <div class="rate">예매율 6.6%</div>
+              <div class="grade">평점 8.5</div>
+              <div class="ticketing"><a href="#!"></a>예매</div>
+            </div>
+          </a>
+        </div>
+
+        <div class="movie_box movie_box03">
+          <a href="../detail/detail_page_2.html">
+            <div class="rank">No.03</div>
+            <div class="poster">
+              <img src="../images/poster03.jpg" alt="movie poster">
+            </div>
+            <div class="rank_text">
+              <div class="title">
+                <p>신비한 동물들과 덤블도어</p>
+                <div><img src="../images/grade-12.png" alt="grade-12"></div>
+              </div>
+              <div class="rate">예매율  6.1%</div>
+              <div class="grade">평점 8.0</div>
+              <div class="ticketing"><a href="#!"></a>예매</div>
+            </div>
+          </a>
+        </div>
+      </div><!--chart_sheet1-->
+
+      <div class="chart_sheet chart_sheet2">
+        <div class="movie_box movie_box01">
+          <div class="rank">No.01</div>
+          <div class="poster">
+            <img src="../images/soon_poster01.jpg" alt="movie poster">
+          </div>
+          <div class="rank_text">
+            <div class="title">
+              <p>부가나이트</p>
+              <div><img src="../images/grade-15.png" alt="grade-12"></div>
+            </div>
+            <div class="rate">예매율 2.5%</div>
+            <div class="grade">개봉일 2022.04.28</div>
+            <div class="ticketing"><a href="#!"></a>예매</div>
+          </div>
+        </div>
+
+        <div class="movie_box movie_box02">
+          <div class="rank">No.02</div>
+          <div class="poster">
+            <img src="../images/soon_poster02.jpg" alt="movie poster">
+          </div>
+          <div class="rank_text">
+            <div class="title">
+              <p>더 컨트랙터</p>
+              <div><img src="../images/grade-15.png" alt="grade-15"></div>
+            </div>
+            <div class="rate">예매율 0.1%</div>
+            <div class="grade">개봉일 2022.04.28</div>
+            <div class="ticketing"><a href="#!"></a>예매</div>
+          </div>
+        </div>
+
+        <div class="movie_box movie_box03">
+          <div class="rank">No.03</div>
+          <div class="poster">
+            <img src="../images/soon_poster03.jpg" alt="movie poster">
+          </div>
+          <div class="rank_text">
+            <div class="title">
+              <p>평평남녀</p>
+              <div><img src="../images/grade-12.png" alt="grade-12"></div>
+            </div>
+            <div class="rate">예매율 0%</div>
+            <div class="grade">개봉일 2022.04.28</div>
+            <div class="ticketing"><a href="#!"></a>예매</div>
+          </div>
+        </div>
+      </div><!--chart_sheet2-->
+
+      <div class="more_movie">
+        <a href="../more_movie/more_movie.html">더 많은 영화보기 <i class="xi-angle-right"></i></a>
+      </div>
+
+    </section><!--movie_chart-->
+
+    <div class="movie_month_bg">
+      <section class="movie_month">
+        <div class="sec_title"><h3>이달의 영화</h3><a href="#!">more<i class="xi-angle-right"></i></a></div>
+        <div class="video_box">
+          <video controls muted poster="../images/video_poster1.jpg" src="../video/movie01.mp4" type="video/mp4"></video>
+        </div>
+        <div class="movie_title">
+          <h4>닥터 스트레인지: 대혼돈의 멀티버스</h4>
+          <p>5월, 광기의 멀티버스가 깨어난다!<br>
+            끝없이 균열되는 차원과 뒤엉킨 시공간의 멀티버스가 열리며</p>
+        </div>
+        <div class="detail_btn"><a href="../detail/detail_page.html">상세보기</a></div>
+      </section>
+    </div><!--movie_month-->
+
+    <section class="benefit_sec">
+      <h3>혜택</h3>
+      <ul class="benefit_btn">
+        <li><a href="#!"><img src="../images/btn/museum_white_24dp.png" alt=""></a><p>멤버쉽</p></li>
+        <li><a href="#!"><img src="../images/btn/card_white_24dp.png" alt=""></a><p>할인카드</p></li>
+        <li><a href="#!"><img src="../images/btn/celebration_white_24dp.png" alt=""></a><p>이벤트</p></li>
+        <li><a href="#!"><img src="../images/btn/stars_white_24dp.png" alt=""></a><p>VIP</p></li>
+      </ul>
+      </div>
+    </section><!--benefit_sec-->
+
+    <section class="event">
+      <h3>이벤트</h3>
+      <input type="radio" name="event_slide" id="event_slide1" checked>
+      <input type="radio" name="event_slide" id="event_slide2">
+      <input type="radio" name="event_slide" id="event_slide3">
+      
+      <div class="slide_wrap">
+        <ul class="slide_list">
+          <li>
+            <a href="#!">
+              <label for="event_slide3" class="left_btn"><i class="xi-angle-left"></i></label>
+              <div class="slide_img_box">
+                <img src="../images/event01.jpg" alt="event01">
+                <img src="../images/event02.jpg" alt="event01">
+              </div>
+              <label for="event_slide2" class="right_btn"><i class="xi-angle-right"></i></label>
+            </a>
+          </li>
+          <li>
+            <a href="#!">
+              <label for="event_slide1" class="left_btn"><i class="xi-angle-left"></i></label>
+              <div class="slide_img_box">
+                <img src="../images/event03.jpg" alt="event01">
+                <img src="../images/event04.jpg" alt="event01">
+              </div>
+              <label for="event_slide3" class="right_btn"><i class="xi-angle-right"></i></label>
+            </a>
+          </li>
+          <li>
+            <a href="#!">
+              <label for="event_slide2" class="left_btn"><i class="xi-angle-left"></i></label>
+              <div class="slide_img_box">
+                <img src="../images/event05.jpg" alt="event01">
+                <img src="../images/event06.jpg" alt="event01">
+              </div>
+              <label for="event_slide1" class="right_btn"><i class="xi-angle-right"></i></label>
+            </a>
+          </li>
+        </ul>
+        <div class="event_label_box">
+          <label for="event_slide1"><div></div></label>
+          <label for="event_slide2"><div></div></label>
+          <label for="event_slide3"><div></div></label>
+        </div>
+      </div>
+    </section><!--event-->
+
+
+    <section class="stage_greeting">
+      <h3>무대인사&시사</h3>
+      <input type="radio" name="stage_radio" id="stage_radio1" checked>
+      <input type="radio" name="stage_radio" id="stage_radio2">
+      
+      <div class="stage_slide_wrap">
+        <ul class="stage_slide">
+          <li>
+            <div class="stage_content">
+              <label for="stage_radio2" class="left_btn"><i class="xi-angle-left"></i></label>
+              <div class="stage_box">
+                <div class="stage_img_box">
+                  <img src="../images/poster02.jpg" alt="poster">
+                </div>
+                <div class="stage_txt_box">
+                  <p>니 부모 얼굴이 보고싶다</p>
+                  <p>상영첫주 무대인사</p>
+                  <a href="../detail/detail_page_1.html">상세보기</a>
+                </div>
+              </div>
+              <label for="stage_radio2" class="right_btn"><i class="xi-angle-right"></i></label>
+            </div>
+          </li>
+          <li>
+            <div class="stage_content">
+              <label for="stage_radio1" class="left_btn"><i class="xi-angle-left"></i></label>
+              <div class="stage_box">
+                <div class="stage_img_box">
+                  <img src="../images/soon_poster03.jpg" alt="poster">
+                </div>
+                <div class="stage_txt_box">
+                  <p>평평남녀</p>
+                  <p>상영첫주 무대인사</p>
+                  <a href="#!">상세보기</a>
+                </div>
+              </div>
+              <label for="stage_radio1" class="right_btn"><i class="xi-angle-right"></i></label>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="stage_label_box">
+        <label for="stage_radio1"><div class="outer"><div class="inner"></div></div></label>
+        <label for="stage_radio2"><div class="outer"><div class="inner"></div></div></label>
+      </div>
+    </section>
+
+    <section class="special_theater">
+      <h3>특별상영관</h3>
+      <input type="radio" name="special_theater_radio" id="special_theater_radio1" checked>
+      <input type="radio" name="special_theater_radio" id="special_theater_radio2">
+      <input type="radio" name="special_theater_radio" id="special_theater_radio3">
+      <input type="radio" name="special_theater_radio" id="special_theater_radio4">
+
+      <div class="label_box">
+        <label for="special_theater_radio1">Dolby CINEMA</label>
+        <label for="special_theater_radio2">The BOUTIQUE PRIVATE</label>
+        <label for="special_theater_radio3">COMFORT</label>
+        <label for="special_theater_radio4">KIDS</label>
+      </div>
+
+      <div class="special_theater_img_box">
+        <div class="special_theater01"><img src="../images/specialtheater01.jpg" alt=""></div>
+        <div class="special_theater02"><img src="../images/specialtheater02.jpg" alt=""></div>
+        <div class="special_theater03"><img src="../images/specialtheater03.jpg" alt=""></div>
+        <div class="special_theater04"><img src="../images/specialtheater04.jpg" alt=""></div>
+      </div>
+    </section>
+  </div><!--content_box-->
+
+  <footer class="footer">
+    <ul>
+      <li><a href="#!">개인정보</a></li>
+      <li><a href="#!">위치기반서비스 이용약관</a></li>
+      <li><a href="#!">개인정보처리방침</a></li>
+      <li><a href="#!">고객센터</a></li>
+    </ul>
+
+    <div class="address">
+      <p>
+        서울특별시 마포구 월드컵로 240, 지상2층(성산동,월드컵주경기장)<br>
+        대표자 홍정인·개인정보보호책임자 공성진<br>
+        사업자등록번호 211-86-59478·  통신판매업신고번호 제2020-서울마포-4545호
+      </p>
+      <p>
+        copyright MegaboxJoonAng.lnc.
+      </p>
+    </div>
+  </footer>
+
+  <a href="#">
+    <div class="to_top">
+      <div><i class="xi-arrow-up"></i></div>
+    </div>
+  </a>
+</body>
+</html>
